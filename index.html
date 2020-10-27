@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/registration_number.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="registration_number.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <title>Registration Numbers</title>
 </head>
 <body>
+<br>
+<br>
+<h2>Registration Number</h2>
+
+<div class="input">
+<input class="inputTxt" type="text">
+<button class="addBtn">Add</button>
+</div>
+
+<div>
+    <br>
+    <br>
+    <b>Filter by Town</b>
+    <input type="radio" name="suburb" value="CF">Kraaifontein
+    <input type="radio" name="suburb" value="CY"> Bellville
+	<input type="radio" name="suburb" value="CL">Stellenboch
+    <input type="radio" name="suburb" value="CA"> Cape Town
+    <input type="radio" name="suburb" value=""><b>Show All Towns</b> 
+
+    <label for="town">Select Town</label>
+    <select name="town" id="town" >
+        <option value="kraai">Kraaifontein</option>
+        <option value="blv">Bellville</option>
+        <option value="stellies">Stellenboch</option>
+        <option value="cpt">Cape Town</option>
+    </select>
+</div>
+
+<div>
+   
+</div>
+
+<br>
+<div class="regnum">
+    CF 3560
+</div>
+<script src="registration-factory.js"></script>
+<script src="registration_numbers.js"></script>
 
 </body>
+
 </html>
